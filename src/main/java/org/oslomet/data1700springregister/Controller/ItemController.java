@@ -34,7 +34,7 @@ public class ItemController {
     @PostMapping("/addItem")
     public void addAnItem(@RequestBody Item item){
         item.setItemNumber(incrementing());
-        //here we vill add the final thing
+        //here we will add the final thing
 
     }
     //helping functions
